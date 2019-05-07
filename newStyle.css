@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial;
+    font-size-adjust: initial;
+    font-display: lime;
+    background-color: lavender
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+   /* border: solid 1px red;*/
+}
+
+.places img {
+    float: right;
+    margin: 20px;
+}
+
+.places {
+    flex: 1;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+table, th, td {
+    border: 1px solid black;
+     border-collapse: collapse; 
+}
+
+.float-left {
+    float: left !important;
+}
+
+.which-city {
+    float: left;
+    margin: 20px;
+}
+
+h3, h2, h1 {
+    text-align: left;
+}
+
+
+@media(min-width:800px){
+    /* body {
+        background-color: yellow;
+    } */
+
+    .places-wrapper {
+        display: flex;
+
+    }
+
+    .float-left {
+        float: right !important;
+    }
+}
